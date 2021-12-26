@@ -1,0 +1,421 @@
+body {
+    background-color: black;
+}
+
+.container {
+    font-family: PT Sans, sans-serif;
+    font-size: small;
+    color: gray;
+    width: 100%;
+    background-color: black;
+    padding-top: 1vmin;
+}
+
+.phone {
+    width: 2.5vh;
+    height: 2.5vh;
+    top: 1vmin;
+    padding-left: 30vh;
+}
+
+.login {
+    width: 2.5vh;
+    height: 2.5vh;
+    top: 1vmin;
+    padding-left: 60vh;
+}
+
+.wraper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wraper__logo {
+    display: flex;
+    margin: auto;
+    padding-top: 130px;
+
+    width: 215px;
+    height: 215px;
+    left: 800px;
+    top: 284px;
+}
+
+.wraper__text {
+    text-align: center;
+    margin: auto;
+
+    left: 25%;
+    top: 70%;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.wraper_foo {
+    background-size: cover;
+
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 2900px;
+
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url(.jpg), #C4C4C4;
+
+}
+
+.wraper_foo_text {
+    position: absolute;
+    width: 350px;
+    height: 147px;
+    left: 5%;
+    top: 70px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+
+.foo_text {
+    position: absolute;
+    width: 151px;
+    height: 32px;
+    left: 35%;
+    top: 55px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#fr_watch,
+#fr_braslets,
+#fr_belts,
+#fr_jwel,
+#fr_cufflinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#fr_watch {
+    position: absolute;
+    width: 70px;
+    height: 41px;
+    left: 30%;
+    top: 105px;
+
+    background: #0F0F0F;
+}
+
+#fr_braslets {
+    position: absolute;
+    width: 98px;
+    height: 41px;
+    left: 38%;
+    top: 105px;
+
+    background: #0F0F0F;
+}
+
+#fr_belts {
+    position: absolute;
+    width: 98px;
+    height: 41px;
+    left: 48%;
+    top: 105px;
+    background: #0F0F0F;
+}
+
+#fr_jwel {
+    position: absolute;
+    width: 98px;
+    height: 41px;
+    left: 34%;
+    top: 185px;
+    background: #0F0F0F;
+}
+
+#fr_cufflinks {
+    position: absolute;
+    width: 98px;
+    height: 41px;
+    left: 45%;
+    top: 185px;
+    background: #0F0F0F;
+}
+
+
+#newseason {
+    position: absolute;
+    width: 55%;
+    height: 530px;
+    left: 0px;
+    top: 736px;
+}
+
+#newcollection {
+    position: absolute;
+    width: 45%;
+    height: 530px;
+    right: 0px;
+    top: 736px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#suit {
+    position: absolute;
+    width: 45%;
+    height: 530px;
+    left: 0px;
+    top: 1275px;
+
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg), #000000;
+}
+
+#collection2018 {
+    position: absolute;
+    width: 55%;
+    height: 600px;
+    right: 0px;
+    top: 1275px;
+
+    background: #000000;
+}
+
+.texttwo {
+    position: absolute;
+    width: 376px;
+    height: 39px;
+    left: 942px;
+    top: 1300px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.textthree {
+    position: absolute;
+    width: 471px;
+    height: 173px;
+    left: 895px;
+    top: 1425px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 150%;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.newarrival {
+    position: absolute;
+    width: 440px;
+    height: 48px;
+    left: 595px;
+    top: 1800px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#itemone,
+#itemtwo,
+#itemthree,
+#itemfour {
+    position: absolute;
+    width: 260px;
+    height: 360px;
+    top: 1900px;
+
+    background: #191B1C;
+}
+
+#itemfive,
+#itemsix,
+#itemseven,
+#itemeight {
+    position: absolute;
+    width: 260px;
+    height: 360px;
+    top: 2300px;
+}
+
+#itemone,
+#itemfive {
+    left: 13%;
+}
+
+#itemtwo,
+#itemsix {
+    left: 32%;
+}
+
+#itemthree,
+#itemseven {
+    left: 51%;
+}
+
+#itemfour,
+#itemeight {
+    left: 70%;
+}
+
+.our_brands {
+    position: absolute;
+    width: 289px;
+    height: 48px;
+    left: 80vh;
+    top: 2690px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.brandone,
+.brandtwo,
+.brandthree,
+.brandfour {
+    position: absolute;
+    width: 205px;
+    height: 84px;
+    top: 2790px;
+
+    background: url(COCO+FINE+JEWELRY-logo-white.png);
+}
+
+.brandone {
+    left: 13%;
+}
+
+.brandtwo {
+    left: 32%;
+}
+
+.brandthree {
+    left: 51%;
+}
+
+.brandfour {
+    left: 70%;
+}
+
+p {
+    position: absolute;
+    width: 810px;
+    height: 96px;
+    left: 500px;
+    top: 530px;
+
+    font-family: PT Sans, Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 28px;
+
+    position: absolute;
+    width: 311px;
+    height: 47px;
+    left: 965px;
+    top: 1650px;
+
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.link {
+    width: 119px;
+    height: 18px;
+    left: 1134px;
+    top: 75px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+footer {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    color: gray;
+    font-family: PT Sans;
+    font-size: 14pt;
+    margin: 0px;
+}
